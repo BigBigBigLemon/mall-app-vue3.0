@@ -1,10 +1,13 @@
 <template>
-  <div class="cart">作业部分代码，同学尝试实现</div>
+  <div class="cart">TODO</div>
+  <Docker :currentIndex="1" />
 </template>
 
 <script>
+import Docker from '../../components/Docker';
 export default {
-  name: 'CartList'
+  name: 'CartList',
+  components: { Docker }
 };
 </script>
 
